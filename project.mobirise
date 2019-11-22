@@ -32,6 +32,8 @@
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Kyle/Desktop/SunshineVibeCafe-master",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": ""
   },
