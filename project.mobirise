@@ -33,13 +33,7 @@
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "gdpr": {
-      "colorText": "#000000",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
-    }
+    "robotsSwitcher": ""
   },
   "pages": {
     "index.html": {
@@ -574,7 +568,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443.jpg",
+                "image": "@PROJECT_PATH@/assets/images/75456791_525364051649920_9113643598196244480_o-960x443.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443-800x369.jpg",
                 "alt": "",
                 "title": "",
