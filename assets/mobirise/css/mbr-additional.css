@@ -12,13 +12,10 @@
 #menu-0 .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
 }
-#header4-1 H1 {
-  color: #ffffff;
+#content4-m .mbr-section-title .mbr-header__text {
+  color: #cccccc;
 }
-#header4-1 P {
-  color: #ffffff;
-}
-#form2-k .mbr-header__text {
+#content4-m P {
   color: #ffffff;
 }
 #contacts2-2 P {
@@ -42,9 +39,6 @@
 }
 
 #form1-j .mbr-header__text {
-  color: #ffffff;
-}
-#social-buttons1-g .mbr-header__text {
   color: #ffffff;
 }
 #menu-5 .mbr-brand__name {

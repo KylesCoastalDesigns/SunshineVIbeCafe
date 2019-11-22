@@ -1,44 +1,45 @@
 {
   "settings": {
     "name": "Sunshine Vibe Cafe Website",
-    "currentPage": "About Us.html",
+    "currentPage": "Contact.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {},
       "additionalSetColors": [
-        "#464646",
-        "#222222"
+        "#464646"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 23,
+    "uniqCompNum": 21,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-149346788-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-149346788-1');\r\n</script>",
     "cookiesAlert": {
-      "colorText": "#ffffff",
-      "colorBg": "#000000",
-      "colorButton": "#000000",
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
       "colorLink": "#424a4d",
-      "underlineLink": false,
-      "opacity": "93",
-      "text": "Copyright: 2019 - 2023. Website Made By: Kyle Lang."
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "Copyright: 2019 - 2023. Website Made By: Kyle Lang. This site is protected."
     },
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Kyle/Desktop/SunshineVibeCafe-master",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "",
     "gdpr": {
-      "colorText": "#000000",
+      "colorText": "#a7a7a7",
       "colorLink": "#149dcc",
       "underlineLink": false,
-      "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     }
   },
   "pages": {
@@ -106,62 +107,43 @@
           "_anchor": "menu-0"
         },
         {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_inherit": "header1",
           "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#222222",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21231-2000x1500.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.4"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21542-741x960.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.3"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21581-1387x641.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.3"
-              }
-            ]
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-21241-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
           },
-          "articleLayout": false,
+          "title": "<i>Sunshine Vibe Cafe</i>",
+          "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee.&nbsp;So come on down to Sunshine Vibe Cafe.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider",
-          "_anchor": "slider-m"
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-1",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_inherit": "features1",
@@ -435,7 +417,7 @@
                 "alt": "",
                 "title": "",
                 "caption": "",
-                "active": false
+                "active": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-21541-741x960.jpg",
@@ -572,14 +554,6 @@
                 "title": "",
                 "caption": "",
                 "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443-800x369.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": true
               }
             ]
           },

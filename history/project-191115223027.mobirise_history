@@ -1,45 +1,40 @@
 {
   "settings": {
     "name": "Sunshine Vibe Cafe Website",
-    "currentPage": "About Us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {},
       "additionalSetColors": [
-        "#464646",
-        "#222222"
+        "#464646"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 23,
+    "uniqCompNum": 21,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-149346788-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-149346788-1');\r\n</script>",
     "cookiesAlert": {
-      "colorText": "#ffffff",
-      "colorBg": "#000000",
-      "colorButton": "#000000",
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
       "colorLink": "#424a4d",
-      "underlineLink": false,
-      "opacity": "93",
-      "text": "Copyright: 2019 - 2023. Website Made By: Kyle Lang."
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "Copyright: 2019 - 2023. Website Made By: Kyle Lang. This site is protected."
     },
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Kyle/Desktop/SunshineVibeCafe-master",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "gdpr": {
-      "colorText": "#000000",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
-    }
+    "robotsSwitcher": ""
   },
   "pages": {
     "index.html": {
@@ -72,7 +67,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -98,7 +93,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
           "_tags": [
             "Theme"
           ],
@@ -106,219 +101,38 @@
           "_anchor": "menu-0"
         },
         {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_inherit": "header1",
           "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#222222",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21231-2000x1500.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.4"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21542-741x960.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.3"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21581-1387x641.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.3"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-m"
-        },
-        {
-          "_inherit": "features1",
-          "_params": {
-            "showHeader": true,
-            "showSubheader": false,
-            "showImages": false,
-            "showTitles": false,
-            "showCaptions": true,
+            "showTitle": true,
+            "showText": true,
             "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": 5,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-21231-2000x1500.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3d3d3d",
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.2"
           },
+          "title": "<i>Sunshine Vibe Cafe</i>",
+          "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee.&nbsp;So come on down to Sunshine Vibe Cafe.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
           "_tags": [
             "Theme"
           ],
-          "headerAlign": "left",
-          "header": "<i>Cafe Times</i>",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "images/bootstrap.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "&nbsp;&nbsp;",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "images/responsive.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "&nbsp; &nbsp;",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "images/google-fonts.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "<b>Monday: 5am - 5pm<br>Tuesday: 5am - 5pm<br>Wednesday: 5am - 5pm<br>Thursday: 5am - 5pm<br>Friday: 5am - 5pm<br>Saturday: 6am - 4pm<br>Sunday: 6am - 1pm</b>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "images/unlimited-websites.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "&nbsp; &nbsp;",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "images/blocks.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "&nbsp;&nbsp;",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_name": "content4",
-          "_anchor": "content4-m",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-1",
           "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "color": "#cccccc"
+            "H1": {
+              "color": "#ffffff"
             },
             "P": {
               "color": "#ffffff"
@@ -327,13 +141,52 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
+            "showTitle": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
+            "bgColor": "#403d3b",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "SUBSCRIBE TO GET A SNEAK PEAK OF NEW FOOD [Still Being Tested]",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SUBSCRIBE</a>",
+          "form": {
+            "action": "sunshinevibe2019@outlook.com",
+            "alerts": {
+              "success": "You have been subscribed to be notified when there is new food."
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-k",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
@@ -345,7 +198,7 @@
             }
           },
           "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
-          "text2": "&nbsp;&nbsp;",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS:</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.facebook.com/sunshinevibecafe/\" target=\"_blank\"><i>Facebook</i></a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" target=\"_blank\"><i>Instagram</i></a></li><li><br></li></ul>",
           "_tags": [
             "Theme"
           ],
@@ -386,7 +239,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -412,7 +265,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
           "_tags": [
             "Theme"
           ],
@@ -430,16 +283,40 @@
             "bgColor": "#000000",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/71566045-495082064678119-5128584340363542528-n-960x443.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/71566045-495082064678119-5128584340363542528-n-960x443-800x369.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-21241-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21241-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "caption": "",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-21541-741x960.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21541-741x960-741x960.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-21261-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21261-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-21371-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21371-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-21431-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21431-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-21461-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21461-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "caption": "",
@@ -456,6 +333,30 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-21521-1387x641.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-21521-1387x641-800x370.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-21531-641x1387.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21531-641x1387-641x1387.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-21151-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21151-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-21541-741x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-21541-741x960-741x960.jpg",
                 "alt": "",
                 "title": "",
                 "caption": "",
@@ -488,14 +389,6 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-21581-1387x641.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-21581-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21531-641x1387.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21531-641x1387-641x1387.jpg",
                 "alt": "",
                 "title": "",
                 "caption": "",
@@ -542,43 +435,11 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-21261-800x600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21261-800x600-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/71566045_495082064678119_5128584340363542528_n-960x443.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/71566045-495082064678119-5128584340363542528-n-960x443-800x369.jpg",
                 "alt": "",
                 "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21371-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21371-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21431-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21431-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21461-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21461-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443-800x369.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
+                "caption": "New Photo",
                 "active": true
               }
             ]
@@ -592,13 +453,13 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
+            "bgColor": "#3c3c3c",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
@@ -610,7 +471,7 @@
             }
           },
           "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
-          "text2": "&nbsp;&nbsp;",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS:</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.facebook.com/sunshinevibecafe/\" target=\"_blank\"><i>Facebook</i></a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" target=\"_blank\"><i>Instagram</i></a></li><li><br></li></ul>",
           "_tags": [
             "Theme"
           ],
@@ -666,11 +527,11 @@
               "phone": {
                 "visible": true,
                 "title": "Phone",
-                "customTitle": "Phone*"
+                "customTitle": "Phone"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message*"
+                "customTitle": "Message"
               }
             }
           },
@@ -679,6 +540,36 @@
           ],
           "_name": "form1",
           "_anchor": "form1-j",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#464646",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-g",
           "_styles": {
             ".mbr-header__text": {
               "color": "#ffffff"
@@ -705,7 +596,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -731,7 +622,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
           "_tags": [
             "Theme"
           ],
@@ -752,7 +643,7 @@
             "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      ",
           "_tags": [
             "Theme"
           ],
@@ -781,13 +672,13 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
+            "bgColor": "#3c3c3c",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
@@ -799,7 +690,7 @@
             }
           },
           "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
-          "text2": "&nbsp;&nbsp;",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS:</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.facebook.com/sunshinevibecafe/\" target=\"_blank\"><i>Facebook</i></a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" target=\"_blank\"><i>Instagram</i></a></li><li><br></li></ul>",
           "_tags": [
             "Theme"
           ],
@@ -840,7 +731,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -866,7 +757,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
           "_tags": [
             "Theme"
           ],
@@ -920,13 +811,13 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
+            "bgColor": "#3c3c3c",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
@@ -938,7 +829,7 @@
             }
           },
           "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
-          "text2": "&nbsp;&nbsp;",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS:</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.facebook.com/sunshinevibecafe/\" target=\"_blank\"><i>Facebook</i></a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" target=\"_blank\"><i>Instagram</i></a></li><li><br></li></ul>",
           "_tags": [
             "Theme"
           ],
@@ -979,7 +870,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -1005,7 +896,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
           "_tags": [
             "Theme"
           ],
@@ -1043,7 +934,7 @@
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dawn-500x194.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/dawn-500x334.jpeg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1068,13 +959,13 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
+            "bgColor": "#3c3c3c",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
@@ -1086,7 +977,7 @@
             }
           },
           "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
-          "text2": "&nbsp;&nbsp;",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS:</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.facebook.com/sunshinevibecafe/\" target=\"_blank\"><i>Facebook</i></a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" target=\"_blank\"><i>Instagram</i></a></li><li><br></li></ul>",
           "_tags": [
             "Theme"
           ],
