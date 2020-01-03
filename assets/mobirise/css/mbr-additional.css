@@ -11,12 +11,29 @@
 }
 #menu-0 .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+#msg-box2-n .mbr-header .mbr-header__text {
+  color: #ffffff;
+  text-align: left;
+}
+#msg-box2-n .mbr-article {
+  color: #ffffff;
+}
+#msg-box1-m .mbr-header .mbr-header__text {
+  color: #fff;
+}
+#msg-box1-m .mbr-article {
+  color: #fff;
 }
 #content4-m .mbr-section-title .mbr-header__text {
   color: #cccccc;
 }
 #content4-m P {
   color: #ffffff;
+}
+#content4-m B {
+  font-size: 15px;
 }
 #contacts2-2 P {
   font-size: 14px;
@@ -33,6 +50,7 @@
 }
 #menu-7 .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 #contacts2-8 P {
   font-size: 14px;
@@ -52,12 +70,14 @@
 }
 #menu-5 .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 #social-buttons2-f .mbr-header__text {
   color: #ffffff;
 }
-#contacts2-6 P {
-  font-size: 14px;
+#footer1-n P {
+  color: #ffffff;
+  text-align: center;
 }
 
 #menu-3 .mbr-brand__name {
@@ -71,6 +91,7 @@
 }
 #menu-3 .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 #msg-box3-d .mbr-header .mbr-header__text {
   text-align: center;
@@ -97,88 +118,7 @@
 }
 #menu-e .mbr-brand__name a {
   font-family: 'Roboto', sans-serif;
-}
-#content5-j .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #fff;
-}
-#content5-j .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-j .mbr-article {
-  color: #fff;
-  text-align: center;
-}
-#content5-j .mbr-article I {
-  font-size: 25px;
-}
-#content5-j .mbr-header .mbr-header__text I {
-  font-size: 30px;
-}
-#contacts2-f P {
   font-size: 14px;
-}
-
-#form1-j .mbr-header__text {
-  color: #ffffff;
-}
-#menu-5 .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-5.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#menu-5 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#menu-5 .mbr-brand__name a {
-  font-family: 'Roboto', sans-serif;
-}
-#social-buttons2-f .mbr-header__text {
-  color: #ffffff;
-}
-#contacts2-6 P {
-  font-size: 14px;
-}
-
-#menu-3 .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-3.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#menu-3 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#menu-3 .mbr-brand__name a {
-  font-family: 'Roboto', sans-serif;
-}
-#msg-box3-d .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #ffffff;
-}
-#msg-box3-d .mbr-header .mbr-header__subtext {
-  text-align: center;
-}
-#msg-box3-d .mbr-article {
-  color: #ffffff;
-}
-#contacts2-4 P {
-  font-size: 14px;
-}
-
-#menu-e .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-e.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#menu-e .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#menu-e .mbr-brand__name a {
-  font-family: 'Roboto', sans-serif;
 }
 #content5-j .mbr-header .mbr-header__text {
   text-align: center;

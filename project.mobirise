@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sunshine Vibe Cafe Website",
-    "currentPage": "About Us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -14,7 +14,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -27,15 +27,19 @@
       "colorLink": "#424a4d",
       "underlineLink": false,
       "opacity": "93",
-      "text": "Copyright: 2019 - 2023. Website Made By: Kyle Lang."
+      "text": "Copyright: 2020 - 2021. Website Made By: Kyle Lang."
     },
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Kyle/Desktop/SunshineVibeCafe-master",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": ""
+    "robotsSwitcher": "",
+    "gdpr": {
+      "colorText": "#000000",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
+    }
   },
   "pages": {
     "index.html": {
@@ -62,7 +66,8 @@
             },
             ".mbr-brand__name a": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -94,12 +99,51 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
           "_anchor": "menu-0"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#222222",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Something big is coming to Sunshine Vibe Cafe. A mobile app. The app is currently being made.",
+          "text": "Msg By: The Website Creator",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-n"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -160,6 +204,43 @@
           "_anchor": "slider-m"
         },
         {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3C3C3C",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Review us on google!",
+          "text": "All reviews are appeciated!",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.google.com/search?q=sunshine+vibe+cafe&amp;rlz=1C1CHBF_en-GBAU870AU870&amp;oq=Sunshine+Vibe+cafe&amp;aqs=chrome.0.35i39l2j0j69i60j69i61j69i60.8404j0j1&amp;sourceid=chrome&amp;ie=UTF-8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click to Review!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-m"
+        },
+        {
           "_inherit": "features1",
           "_params": {
             "showHeader": true,
@@ -170,7 +251,7 @@
             "showButtons": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": 5,
+            "columns": "5",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -189,7 +270,7 @@
           ],
           "headerAlign": "left",
           "header": "<i>Cafe Times</i>",
-          "subheader": "By John Smith posted July 30, 2015",
+          "subheader": "",
           "media1": {
             "image": {
               "active": true,
@@ -248,7 +329,7 @@
             }
           },
           "title3": "WEB FONTS",
-          "caption3": "<b>Monday: 5am - 5pm<br>Tuesday: 5am - 5pm<br>Wednesday: 5am - 5pm<br>Thursday: 5am - 5pm<br>Friday: 5am - 5pm<br>Saturday: 6am - 4pm<br>Sunday: 6am - 1pm</b>",
+          "caption3": "<b>Monday: 5am - 5pm<br>Tuesday: 5am - 5pm<br>Wednesday: 5am - 5pm<br>Thursday: 5am - 5pm<br>Friday: 5am - 5pm<br>Saturday: 6am - 4pm<br>Sunday: 6am - 1pm</b><br><br><b>Note: Times can change.</b>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -318,6 +399,9 @@
             },
             "P": {
               "color": "#ffffff"
+            },
+            "B": {
+              "font-size": "15px"
             }
           }
         },
@@ -340,7 +424,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -376,7 +460,8 @@
             },
             ".mbr-brand__name a": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -408,7 +493,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
           "_tags": [
             "Theme"
           ],
@@ -570,7 +655,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/75456791_525364051649920_9113643598196244480_o-960x443.jpg",
+                "image": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443-800x369.jpg",
                 "alt": "",
                 "title": "",
@@ -605,7 +690,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -695,7 +780,8 @@
             },
             ".mbr-brand__name a": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -727,7 +813,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
           "_tags": [
             "Theme"
           ],
@@ -777,35 +863,29 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
+            "bgColor": "#444444",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257",
-              "placeId": "EjU0MTIgT2NlYW4gVmlldyBSZCwgRXR0YWxvbmcgQmVhY2ggTlNXIDIyNTcsIEF1c3RyYWxpYSIbEhkKFAoSCbuMagBXs3JrEWEBm-VnfQETEJwD",
-              "state": "ok",
-              "stateDetails": ""
-            }
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
-          "text2": "&nbsp;&nbsp;",
+          "text": "<b>Sunshine Vibe Cafe. Copyright: 2020 - 2021</b>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts2",
+          "_name": "footer1",
+          "_anchor": "footer1-n",
           "_styles": {
             "P": {
-              "font-size": "14px"
+              "color": "#ffffff",
+              "text-align": "center"
             }
-          },
-          "_anchor": "contacts2-6"
+          }
         }
       ]
     },
@@ -830,7 +910,8 @@
             },
             ".mbr-brand__name a": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -862,7 +943,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
           "_tags": [
             "Theme"
           ],
@@ -933,7 +1014,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -969,7 +1050,8 @@
             },
             ".mbr-brand__name a": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -1001,7 +1083,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
           "_tags": [
             "Theme"
           ],
@@ -1081,7 +1163,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunthine Vibe Cafe.&nbsp;Copyright: 2019 - 2023</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
