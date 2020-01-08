@@ -20,12 +20,6 @@
 #msg-box2-n .mbr-article {
   color: #ffffff;
 }
-#msg-box1-m .mbr-header .mbr-header__text {
-  color: #fff;
-}
-#msg-box1-m .mbr-article {
-  color: #fff;
-}
 #content4-m .mbr-section-title .mbr-header__text {
   color: #cccccc;
 }
@@ -34,6 +28,12 @@
 }
 #content4-m B {
   font-size: 15px;
+}
+#msg-box1-m .mbr-header .mbr-header__text {
+  color: #fff;
+}
+#msg-box1-m .mbr-article {
+  color: #fff;
 }
 #contacts2-2 P {
   font-size: 14px;

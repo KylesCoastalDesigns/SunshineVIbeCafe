@@ -14,7 +14,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 24,
+    "uniqCompNum": 22,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -46,7 +46,7 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "Welcome to the official website of Sunshine Vibe Cafe. Click the link above to check us out!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -137,7 +137,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Something big is coming to Sunshine Vibe Cafe. A mobile app. The app is currently being made.",
-          "text": "Msg By: The Website Creator",
+          "text": "Msg By: The Website Creator, Estimate date it should be done 10/4/2020 could be done way before. Reason why the estimate date is so far is because im currently trying to figure out a few things!",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
           "_tags": [
             "Theme"
@@ -202,43 +202,6 @@
           ],
           "_name": "slider",
           "_anchor": "slider-m"
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3C3C3C",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Review us on google!",
-          "text": "All reviews are appeciated!",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.google.com/search?q=sunshine+vibe+cafe&amp;rlz=1C1CHBF_en-GBAU870AU870&amp;oq=Sunshine+Vibe+cafe&amp;aqs=chrome.0.35i39l2j0j69i60j69i61j69i60.8404j0j1&amp;sourceid=chrome&amp;ie=UTF-8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click to Review!</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-m"
         },
         {
           "_inherit": "features1",
@@ -404,6 +367,43 @@
               "font-size": "15px"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3C3C3C",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Review us on google!",
+          "text": "All reviews are appeciated!. Reviews help us grow.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://www.google.com/search?q=sunshine+vibe+cafe&amp;rlz=1C1CHBF_en-GBAU870AU870&amp;oq=Sunshine+Vibe+cafe&amp;aqs=chrome.0.35i39l2j0j69i60j69i61j69i60.8404j0j1&amp;sourceid=chrome&amp;ie=UTF-8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click to Review!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-m"
         },
         {
           "_params": {
@@ -707,7 +707,7 @@
     },
     "Contact.html": {
       "settings": {
-        "meta_descr": "Web Builder Description",
+        "meta_descr": "\n",
         "title": "Contact",
         "order": 3
       },
@@ -874,7 +874,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "<b>Sunshine Vibe Cafe. Copyright: 2020 - 2021</b>",
+          "text": "<b>Sunshine Vibe Cafe</b>™<b>. Copyright: 2020 - 2021</b>",
           "_tags": [
             "Theme"
           ],
@@ -1031,7 +1031,7 @@
     },
     "Menu.html": {
       "settings": {
-        "meta_descr": "\n",
+        "meta_descr": "",
         "title": "Menu",
         "order": 1
       },
