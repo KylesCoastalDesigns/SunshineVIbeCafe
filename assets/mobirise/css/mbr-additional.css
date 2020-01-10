@@ -55,6 +55,9 @@
 #contacts2-8 P {
   font-size: 14px;
 }
+#contacts2-8 I {
+  font-size: 9px;
+}
 
 #form1-j .mbr-header__text {
   color: #ffffff;
@@ -106,6 +109,9 @@
 #contacts2-4 P {
   font-size: 14px;
 }
+#contacts2-4 I {
+  font-size: 9px;
+}
 
 #menu-e .mbr-brand__name {
   font-size: 16px;
@@ -140,4 +146,7 @@
 }
 #contacts2-f P {
   font-size: 14px;
+}
+#contacts2-f I {
+  font-size: 9px;
 }

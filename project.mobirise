@@ -14,7 +14,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 22,
+    "uniqCompNum": 24,
     "versionPublish": "4.10.15",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -81,7 +81,7 @@
             "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\">MENU</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -137,7 +137,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Something big is coming to Sunshine Vibe Cafe. A mobile app. The app is currently being made.",
-          "text": "Msg By: The Website Creator, Estimate date it should be done 10/4/2020 could be done way before. Reason why the estimate date is so far is because im currently trying to figure out a few things!",
+          "text": "Msg By: The Website Creator, Estimate date it should be done 10/4/2020 could be done way before. Reason why the estimate date is so far is because im currently having trouble with the app hosting service!",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
           "_tags": [
             "Theme"
@@ -424,7 +424,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -443,7 +443,7 @@
       "settings": {
         "meta_descr": "\n",
         "title": "Gallery",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -475,7 +475,7 @@
             "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\">MENU</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -690,7 +690,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -699,6 +699,9 @@
           "_styles": {
             "P": {
               "font-size": "14px"
+            },
+            "I": {
+              "font-size": "9px"
             }
           },
           "_anchor": "contacts2-8"
@@ -709,7 +712,7 @@
       "settings": {
         "meta_descr": "\n",
         "title": "Contact",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -795,7 +798,7 @@
             "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\">MENU</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -893,7 +896,7 @@
       "settings": {
         "meta_descr": "\n\n",
         "title": "About Us",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -925,7 +928,7 @@
             "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\">MENU</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1014,7 +1017,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -1023,6 +1026,9 @@
           "_styles": {
             "P": {
               "font-size": "14px"
+            },
+            "I": {
+              "font-size": "9px"
             }
           },
           "_anchor": "contacts2-4"
@@ -1033,7 +1039,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Menu",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1065,7 +1071,7 @@
             "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\">MENU</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1163,7 +1169,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021 &nbsp; &nbsp; </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -1172,6 +1178,9 @@
           "_styles": {
             "P": {
               "font-size": "14px"
+            },
+            "I": {
+              "font-size": "9px"
             }
           },
           "_anchor": "contacts2-f"
