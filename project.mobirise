@@ -15,9 +15,9 @@
     "versionFirst": "4.10.3",
     "siteFonts": [],
     "uniqCompNum": 21,
-    "versionPublish": "4.10.15",
+    "versionPublish": "4.12.1",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": false,
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-149346788-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-149346788-1');\r\n</script>",
     "cookiesAlert": {
@@ -26,20 +26,26 @@
       "colorButton": "#000000",
       "colorLink": "#424a4d",
       "underlineLink": false,
-      "opacity": "93",
-      "text": "Copyright: 2020 - 2021. Website Made By: Kyle Lang."
+      "opacity": "82",
+      "text": "Copyright: 2020. Website Made By: Kyle Lang.",
+      "customDialogSelector": true,
+      "textButton": "X",
+      "opacityOverlay": "9"
     },
-    "siteUrl": "",
+    "siteUrl": false,
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
+    "robotsSwitcher": false,
     "gdpr": {
       "colorText": "#000000",
       "colorLink": "#149dcc",
       "underlineLink": false,
       "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
-    }
+    },
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
