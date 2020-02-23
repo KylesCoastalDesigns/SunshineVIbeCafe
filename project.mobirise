@@ -27,7 +27,7 @@
       "colorLink": "#424a4d",
       "underlineLink": false,
       "opacity": "82",
-      "text": "Copyright: 2020. Website Made By: Kyle Lang.",
+      "text": "Copyright: 2020 - 2022. Powered By: Mythical Development",
       "customDialogSelector": true,
       "textButton": "X",
       "opacityOverlay": "9"
@@ -43,9 +43,7 @@
       "underlineLink": false,
       "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
     },
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -391,7 +389,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i>Powered By: Mythical Development</i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -657,7 +655,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i>Powered By: Mythical Development</i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -984,7 +982,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i>Powered By: Mythical Development</i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -1136,7 +1134,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><br><br><b>WEB DEVELOPER CONTACTS:</b><br>Email<b>: kylesgamingofficial@gmail.com<br>Instagram: <a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\">Click Here</a><br>Note: </b><i>If you have any website suggestions or there are any issues with the website contact me there or if you need a website too.<a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i><b>Sunshine Vibe Cafe</b></i>™<i><b>.&nbsp;Copyright: 2020 - 2021</b></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i>Powered By: Mythical Development</i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
