@@ -15,7 +15,7 @@
     "versionFirst": "4.10.3",
     "siteFonts": [],
     "uniqCompNum": 21,
-    "versionPublish": "4.12.1",
+    "versionPublish": "4.12.2",
     "screenshot": "screenshot.png",
     "favicon": false,
     "noImageResize": "",
@@ -43,7 +43,9 @@
       "underlineLink": false,
       "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
     },
-    "imageResize": true
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -389,7 +391,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.instagram.com/mythical_development/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -655,7 +657,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.instagram.com/mythical_development/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -982,7 +984,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.instagram.com/mythical_development/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
@@ -1134,7 +1136,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.instagram.com/mythical_development/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
+          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
           "text2": "&nbsp;&nbsp;",
           "_tags": [
             "Theme"
