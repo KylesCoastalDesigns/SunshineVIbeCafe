@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sunshine Vibe Cafe Website",
-    "currentPage": "index.html",
+    "currentPage": "About Us.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -43,9 +43,7 @@
       "underlineLink": false,
       "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
     },
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -259,7 +257,7 @@
             }
           },
           "title3": "WEB FONTS",
-          "caption3": "<b>Monday: 5am - 5pm<br>Tuesday: 5am - 5pm<br>Wednesday: 5am - 5pm<br>Thursday: 5am - 5pm<br>Friday: 5am - 5pm<br>Saturday: 6am - 4pm<br>Sunday: 6am - 1pm</b><br><br><b>Note: Times can change.</b>",
+          "caption3": "<b>Monday: CLOSED<br>Tuesday: 5am - 5pm<br>Wednesday: 5am - 5pm<br>Thursday: 5am - 5pm<br>Friday: 5am - 5pm<br>Saturday: 6am - 4pm<br>Sunday: 6am - 1pm</b><br><br><b>Note: Times can change.</b>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -999,158 +997,6 @@
             }
           },
           "_anchor": "contacts2-4"
-        }
-      ]
-    },
-    "Menu.html": {
-      "settings": {
-        "meta_descr": "",
-        "title": "Menu",
-        "order": 2
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "14px"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-e"
-        },
-        {
-          "_inherit": "msg-box3",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff",
-              "text-align": "center"
-            },
-            ".mbr-article I": {
-              "font-size": "25px"
-            },
-            ".mbr-header .mbr-header__text I": {
-              "font-size": "30px"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dawn-500x194.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": true,
-            "overlay": true,
-            "overlayColor": "#28324e",
-            "overlayOpacity": 0.2
-          },
-          "title": "<i>Menu</i>",
-          "text": "<i>Sunshine Vibe Cafe menu. Coming Soon. Its a big tasty menu so stay tuned.</i>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "_name": "content5",
-          "_anchor": "content5-j"
-        },
-        {
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257",
-              "placeId": "EjU0MTIgT2NlYW4gVmlldyBSZCwgRXR0YWxvbmcgQmVhY2ggTlNXIDIyNTcsIEF1c3RyYWxpYSIbEhkKFAoSCbuMagBXs3JrEWEBm-VnfQETEJwD",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
-          "text2": "&nbsp;&nbsp;",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
-          "_styles": {
-            "P": {
-              "font-size": "14px"
-            },
-            "I": {
-              "font-size": "9px"
-            }
-          },
-          "_anchor": "contacts2-f"
         }
       ]
     }
