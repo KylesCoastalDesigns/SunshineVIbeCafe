@@ -1,1002 +1,508 @@
 {
   "settings": {
-    "name": "Sunshine Vibe Cafe Website",
-    "currentPage": "About Us.html",
+    "name": "Site-03-29_2114",
+    "currentPage": "index.html",
     "theme": {
-      "name": "default",
-      "title": "Mobirise",
-      "styling": {},
-      "additionalSetColors": [
-        "#464646",
-        "#222222"
-      ]
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.10.3",
+    "versionFirst": "5.3.0",
     "siteFonts": [],
-    "uniqCompNum": 21,
-    "versionPublish": "4.12.2",
-    "screenshot": "screenshot.png",
-    "favicon": false,
-    "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-149346788-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-149346788-1');\r\n</script>",
-    "cookiesAlert": {
-      "colorText": "#ffffff",
-      "colorBg": "#000000",
-      "colorButton": "#000000",
-      "colorLink": "#424a4d",
-      "underlineLink": false,
-      "opacity": "82",
-      "text": "Copyright: 2020 - 2022. Powered By: Mythical Development",
-      "customDialogSelector": true,
-      "textButton": "X",
-      "opacityOverlay": "9"
-    },
-    "siteUrl": false,
-    "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "favicon": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128-1.jpg",
+    "mbrsiteDomain": "jf8sigfwkl",
+    "imageResize": false,
     "robotsSwitcher": false,
-    "gdpr": {
-      "colorText": "#000000",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "Welcome to Sunshine Vibe Cafe's Official Website. Have a wonderful day."
-    },
-    "imageResize": true
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 23,
+    "versionPublish": "5.3.0"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "Welcome to the official website of Sunshine Vibe Cafe. Click the link above to check us out!",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
+          "alias": "zen2cool-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "14px"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-0"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#222222",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21231-2000x1500.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.4"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "& when not (@transp)": {
+                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
               },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21542-741x960.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.3"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21581-1387x641.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Sunshine Vibe Cafe",
-                "contentAlign": "left",
-                "text": "Here at Sunshine Vibe Cafe we make the freshest food in town. All our food is homemade and freshly cooked. Feedback helps us grow. We also have cards so everytime you get a coffee you will get a stamp and if you get a lot of stamps you get a free coffee. So come on down to Sunshine Vibe Cafe.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Instagram</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook</a>",
-                "overlay": true,
-                "overlayOpacity": "0.3"
+              "& when (@transp)": {
+                "background": "transparent"
               }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-m"
-        },
-        {
-          "_inherit": "features1",
-          "_params": {
-            "showHeader": true,
-            "showSubheader": false,
-            "showImages": false,
-            "showTitles": false,
-            "showCaptions": true,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3d3d3d",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "headerAlign": "left",
-          "header": "<i>Cafe Times</i>",
-          "subheader": "",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "images/bootstrap.png",
-              "class": "mbr-figure__img",
-              "width": 600
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "&nbsp;&nbsp;",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "images/responsive.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title2": "RESPONSIVE",
-          "caption2": "&nbsp; &nbsp;",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "images/google-fonts.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title3": "WEB FONTS",
-          "caption3": "<b>Monday: CLOSED<br>Tuesday: 5am - 5pm<br>Wednesday: 5am - 5pm<br>Thursday: 5am - 5pm<br>Friday: 5am - 5pm<br>Saturday: 6am - 4pm<br>Sunday: 6am - 1pm</b><br><br><b>Note: Times can change.</b>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "src": "images/unlimited-websites.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "&nbsp; &nbsp;",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "images/blocks.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "&nbsp;&nbsp;",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_name": "content4",
-          "_anchor": "content4-m",
-          "_styles": {
-            ".mbr-section-title .mbr-header__text": {
-              "color": "#cccccc"
-            },
-            "P": {
-              "color": "#ffffff"
-            },
-            "B": {
-              "font-size": "15px"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3C3C3C",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Review us on google!",
-          "text": "All reviews are appeciated!. Reviews help us grow.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://www.google.com/search?q=sunshine+vibe+cafe&amp;rlz=1C1CHBF_en-GBAU870AU870&amp;oq=Sunshine+Vibe+cafe&amp;aqs=chrome.0.35i39l2j0j69i60j69i61j69i60.8404j0j1&amp;sourceid=chrome&amp;ie=UTF-8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click to Review!</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-m"
-        },
-        {
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257",
-              "placeId": "EjU0MTIgT2NlYW4gVmlldyBSZCwgRXR0YWxvbmcgQmVhY2ggTlNXIDIyNTcsIEF1c3RyYWxpYSIbEhkKFAoSCbuMagBXs3JrEWEBm-VnfQETEJwD",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
-          "text2": "&nbsp;&nbsp;",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
-          "_anchor": "contacts2-2",
-          "_styles": {
-            "P": {
-              "font-size": "14px"
-            }
-          }
-        }
-      ]
-    },
-    "Gallery.html": {
-      "settings": {
-        "meta_descr": "\n",
-        "title": "Gallery",
-        "order": 3
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "14px"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-7"
-        },
-        {
-          "_params": {
-            "fullWidth": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "noGutter": false,
-            "showText": true,
-            "showBullets": true,
-            "bgColor": "#000000",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/71566045-495082064678119-5128584340363542528-n-960x443.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/71566045-495082064678119-5128584340363542528-n-960x443-800x369.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21541-741x960.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21541-741x960-741x960.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21511-944x1920.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21511-944x1920-800x1627.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21521-1387x641.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21521-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21551-640x1301.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21551-640x1301-640x1301.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21561-1387x641.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21561-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21571-1387x641.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21571-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21581-1387x641.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21581-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21531-641x1387.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21531-641x1387-641x1387.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21591-641x1387.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21591-641x1387-641x1387.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21601-1387x641.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21601-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21611-640x1387.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21611-640x1387-640x1387.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21621-640x1387.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21621-640x1387-640x1387.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21631-1387x641.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21631-1387x641-800x370.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21261-800x600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21261-800x600-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21371-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21371-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21431-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21431-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-21461-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-21461-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/75456791-525364051649920-9113643598196244480-o-960x443-800x369.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-g"
-        },
-        {
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257",
-              "placeId": "EjU0MTIgT2NlYW4gVmlldyBSZCwgRXR0YWxvbmcgQmVhY2ggTlNXIDIyNTcsIEF1c3RyYWxpYSIbEhkKFAoSCbuMagBXs3JrEWEBm-VnfQETEJwD",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
-          "text2": "&nbsp;&nbsp;",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
-          "_styles": {
-            "P": {
-              "font-size": "14px"
-            },
-            "I": {
-              "font-size": "9px"
-            }
-          },
-          "_anchor": "contacts2-8"
-        }
-      ]
-    },
-    "Contact.html": {
-      "settings": {
-        "meta_descr": "\n",
-        "title": "Contact",
-        "order": 4
-      },
-      "components": [
-        {
-          "_params": {
-            "showTitle": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#464646",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "CONTACT US",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
-          "form": {
-            "action": "sunshinevibe2019@outlook.com",
-            "alerts": {
-              "success": "We will get in contact with you soon."
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone*"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message*"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-j",
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "14px"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-5"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#464646",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/sunshinevibecafe/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/sunshinevibecafe/?hl=en\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      ",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-f",
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_params": {
-            "googleMap": {
-              "address": "\n412 Ocean View Road (1.54 km)\n2257 Ettalong Beach, New South Wales, Australia",
-              "placeId": "EjU0MTIgT2NlYW4gVmlldyBSZCwgRXR0YWxvbmcgQmVhY2ggTlNXIDIyNTcsIEF1c3RyYWxpYSIbEhkKFAoSCbuMagBXs3JrEWEBm-VnfQETEJwD",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "map1",
-          "_anchor": "map1-k"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#444444",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "<b>Sunshine Vibe Cafe</b>™<b>. Copyright: 2020 - 2021</b>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-n",
-          "_styles": {
-            "P": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          }
-        }
-      ]
-    },
-    "About Us.html": {
-      "settings": {
-        "meta_descr": "\n\n",
-        "title": "About Us",
-        "order": 5
-      },
-      "components": [
-        {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "14px"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"About Us.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Gallery.html\">GALLERY</a></li>  ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Menu.html\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html#header4-1\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sunshine Vibe Cafe™</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-3"
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
+            ".mbr-section": {
               "text-align": "center",
-              "color": "#ffffff"
+              "color": "#fff"
             },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
+            "p": {
+              "display": "inline",
+              "font-size": "unit(@sizetext, px)",
+              "color": "#FFD100",
+              "& when (@showneon)": {
+                "& when (@effectstyle = 'stroke')": {
+                  "text-shadow": "-1px -1px 0 @textshadow, 1px -1px 0 @textshadow, -1px 1px 0 @textshadow, 1px 1px 0 @textshadow, 1px 1px 10px #141414"
+                },
+                "& when (@effectstyle = 'neon')": {
+                  "text-shadow": "0 0 2px @textshadow, 0 0 30px @textshadow, 0px 0px 5px @textshadow, 0 0 150px @textshadow"
+                },
+                "& when (@effectstyle = 'offset')": {
+                  "text-shadow": "4px 4px 0px @textshadow, 7px 7px 0px rgba(0, 0, 0, 0.2)"
+                },
+                "& when (@effectstyle = '3d')": {
+                  "text-shadow": "@textshadow 3px 5px 0, @3dcolor1 4px 6px 3px, @3dcolor2 8px 11px 10px"
+                }
+              }
             },
-            ".mbr-article": {
-              "color": "#ffffff"
+            "& when (@Style = 'defile')": {
+              ".marquee-rtl": {
+                "width": "unit(@wdtext, %)",
+                "max-width": "100%",
+                "overflow": "hidden"
+              },
+              ".marquee-rtl > :first-child": {
+                "display": "inline-block",
+                "padding-right": "2em",
+                "padding-left": "100%",
+                "white-space": "nowrap",
+                "animation": "defilement-rtl (@speedtext * 1s) infinite linear",
+                "animation-iteration-count": "(@counttext * 1)"
+              },
+              "& when (@moussehover)": {
+                ".marquee-rtl:hover :first-child": {
+                  "animation-play-state": "paused"
+                }
+              },
+              "@keyframes defilement-rtl": {
+                "0%": {
+                  "transform": "translate3d(0, 0, 0)"
+                },
+                "100%": {
+                  "transform": "translate3d(-100%, 0, 0)"
+                }
+              },
+              ".media-container-row .mbr-text": {
+                "color": "#ffffff"
+              }
+            },
+            "& when (@Style = 'blink')": {
+              ".marquee-rtl": {
+                "animation": "Test (@speedtext * 1s) infinite",
+                "padding-right": "unit(@rightpad, %)",
+                "padding-left": "unit(@leftpad, %)",
+                "animation-iteration-count": "(@counttext * 1)"
+              },
+              "@keyframes Test": {
+                "0%": {
+                  "opacity": "1"
+                },
+                "50%": {
+                  "opacity": "0"
+                },
+                "100%": {
+                  "opacity": "1"
+                }
+              }
+            },
+            "& when (@Style = 'fix')": {
+              ".marquee-rtl": {
+                "padding-right": "unit(@rightpad, %)",
+                "padding-left": "unit(@leftpad, %)"
+              }
+            },
+            "& when (@Style = 'pulse')": {
+              ".marquee-rtl": {
+                "-webkit-animation": "Test (@speedtext * 1s) ease-out",
+                "-webkit-animation-iteration-count": "infinite",
+                "opacity": "0.5",
+                "padding-right": "unit(@rightpad, %)",
+                "padding-left": "unit(@leftpad, %)"
+              },
+              "@-webkit-keyframes Test": {
+                "0%": {
+                  "opacity": "0.5"
+                },
+                "50%": {
+                  "opacity": "1.0"
+                },
+                "100%": {
+                  "opacity": "0.5"
+                }
+              }
+            },
+            ".media-container-row .mbr-text": {
+              "color": "#232323"
             }
           },
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/5cd119fc1703d-2000x900.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": false,
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "About Us",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p><b><i>At Sunshine vibe Café we make our own sausage rolls and pies. We also make our well renowned Sunshine pineapple slice. Our sweet treats don't stop there. We have caramel slices, vanilla slices, apple pies. Our coffees are delicious and creamy, just a perfect start to your morning. If you feel like something that isn't sweet but as equally as delicious, our fresh, handcrafted pies and sausage rolls are there to indulge in at your pleasure. We also have our Ozzie and Kiwi&nbsp;</i></b><b><i>burgers.</i></b></p><p></p><div><b><i>\n</i></b></div><div><b><i>Here at Sunshine Vibe Café we are passionate about ensuring that the meals, treats and drinks we prepare are made in hygienic manner with freshest ingredients. We care about our customers and ensure that we meet your needs and wants. We also have aircon for hot sunny days. Our smoothies include: Strawberries, Mango, Raspberries and Banana. With our milkshakes we have our: Caramel, Vanilla, Chocolate, Strawberry and Lime.</i></b><br></div><div><b><i> \n</i></b></div><div><b><i>\n</i></b></div><div><b><i><br></i></b></div><div><b><i>On Friday and Saturday we have our Polynesian food \n</i></b></div><div><b><i>We have our Algerian range: The Basbousa (similar to a Gozleme), Almond cookie and Baklava.&nbsp;</i></b></div><p></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-d"
+          "_name": "banner",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n<header>Banner Config</header>\n              <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n       <input type=\"range\" inline title=\"Text Zoom\" name=\"sizetext\" min=\"10\" max=\"70\" step=\"1\" value=\"39\">\n             <input type=\"checkbox\" title=\"Text Effect\" name=\"showneon\">\n          <select title=\"Effect Style\" name=\"effectstyle\" condition=\"showneon\">\n          <option value=\"3d\">3D</option>\n            <option value=\"neon\">Neon</option>\n                    <option value=\"offset\">Offset</option>\n         <option value=\"stroke\" selected>Stroke</option>\n          \t</select>\n      <input type=\"color\" name=\"textshadow\" title=\"Color Shadow 1\" value=\"#f7ed4a\" selected condition=\"showneon\">\n      <input type=\"color\" name=\"dcolor1\" title=\"Color Shadow 2\" value=\"#c1c1c1\" condition=\"showneon&&effectstyle=='3d'\">\n      <input type=\"color\" name=\"dcolor2\" title=\"Color Shadow 3\" value=\"#232323\" condition=\"showneon&&effectstyle=='3d'\">\n\n      <hr>\n      <input type=\"checkbox\" title=\"Show Start Logo\" name=\"showLogo1\">\n       <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize1\" min=\"1\" max=\"100\" step=\"0.5\" value=\"5\" condition=\"showLogo1\">\n       <input type=\"checkbox\" title=\"Show End Logo\" name=\"showLogo2\">\n       <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize2\" min=\"1\" max=\"100\" step=\"0.5\" value=\"5\" condition=\"showLogo2\">\n       <hr>\n        <select title=\"Style\" name=\"Style\">\n          <option value=\"fix\" selected>Fixed</option>\n         <option value=\"blink\">Blink</option>\n            <option value=\"defile\">Defile</option>\n          <option value=\"pulse\">Pulse</option>\n          \t</select>\n      \n      <input type=\"range\" inline title=\"Left Padding\" name=\"leftpad\" min=\"1\" max=\"100\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='fix'||Style=='pulse'\">\n      <input type=\"range\" inline title=\"Right Padding\" name=\"rightpad\" min=\"1\" max=\"100\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='fix'||Style=='pulse'\">\n        <input type=\"range\" inline title=\"Speed\" name=\"speedtext\" min=\"1\" max=\"50\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='defile'||Style=='pulse'\">\n       <input type=\"range\" inline title=\"Text Area\" name=\"wdtext\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Style=='defile'\">\n      <input type=\"range\" inline title=\"Iteration\" name=\"counttext\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Style=='blink'||Style=='defile'||Style=='pulse'\">\n\n      \n        <input type=\"checkbox\" title=\"Mouse Hover\" name=\"moussehover\" condition=\"Style=='defile'\">\n       \n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"color\" title=\"Background Color\" value=\"#ffe161\" selected>\n       </fieldset>\n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ff9966\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\n\n    <!-- End block parameters -->\n    </mbr-parameters> \n  \n <div class=\"media-container-row\">\n   \n    <div class=\"marquee-rtl mbr-text\">\n\n  \n  <div>\n<span mbr-if=\"showLogo1\"><a href=\"https://mobirise.com\"><img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize1 + 'rem'}\" title></a>\n</span>\n <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"> Sunshine Vibe Cafe</p>  \n<span mbr-if=\"showLogo2\"><a href=\"https://mobirise.com\"><img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize2 + 'rem'}\" title></a>\n</span>\n      <div>\n\n   \n   \n   </div>\n</div>\n</div></div></section>",
+          "_cid": "st2IS2lNP0",
+          "_anchor": "banner-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3e3e3e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8,
-            "googleMap": {
-              "address": "412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257",
-              "placeId": "EjU0MTIgT2NlYW4gVmlldyBSZCwgRXR0YWxvbmcgQmVhY2ggTlNXIDIyNTcsIEF1c3RyYWxpYSIbEhkKFAoSCbuMagBXs3JrEWEBm-VnfQETEJwD",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "text1": "<strong>ADDRESS:</strong><br>412 Ocean View Road, Ettalong Beach, New South Wales, Australia 2257<br><br>\n<strong>OWNER CONTACTS:</strong><br>Email: <b>sunshinevibe2019@outlook.com</b><br>\nPhone:<b> 0435 572 021</b><i><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\" style=\"font-weight: bold;\"><br></a></i><b><a href=\"https://www.instagram.com/exo_development/?hl=en\" target=\"_blank\"><br></a></b><br><i>Sunshine Vibe Cafe</i>™<i>.&nbsp;Copyright: 2020 - 2022</i><br><i><a href=\"https://www.mythicaldevelopmentofficial.tk/\" target=\"_blank\" class=\"text-info\">Powered By: Mythical Development</a></i>",
-          "text2": "&nbsp;&nbsp;",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
+          "alias": "zen2cool-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
           "_styles": {
-            "P": {
-              "font-size": "14px"
+            "padding-top": "(@paddingTop * 25px)",
+            "padding-bottom": "(@paddingBottom * 25px)",
+            "& when (@bg-type = 'color')": {
+              "& when not (@transp)": {
+                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
+              },
+              "& when (@transp)": {
+                "background": "transparent"
+              }
             },
-            "I": {
-              "font-size": "9px"
+            ".news": {
+              "width": "(@newswidth * 1px)",
+              "background-color": "@newscolor"
+            },
+            ".news-scroll a": {
+              "text-decoration": "none"
+            },
+            ".dot": {
+              "height": "6px",
+              "width": "6px",
+              "margin-left": "3px",
+              "margin-right": "3px",
+              "margin-top": "2px !important",
+              "background-color": "@dotscolor",
+              "border-radius": "50%",
+              "display": "inline-block"
+            },
+            "DIV": {
+              "color": "#ffffff"
             }
           },
-          "_anchor": "contacts2-4"
+          "_name": "breaking",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <header>News</header>\n                <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Box Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <input type=\"range\" inline title=\"News Width\" name=\"newswidth\" min=\"100\" max=\"250\" step=\"1\" value=\"175\">\n        <input type=\"color\" title=\"News Color\" name=\"newscolor\" value=\"#000000\">\n        <input type=\"color\" title=\"Dots Color\" name=\"dotscolor\" value=\"#ff9966\">\n                \n\n        <header>Text</header>\n      <input type=\"color\" title=\"Text BG Color\" name=\"textbgcolor\" value=\"#232323\">\n\n                              <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ff9966\" selected>\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffe161\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n        </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n<div class=\"container mt-10 col-lg-{{textWidth}}\">\n    <div class=\"row\">\n        <div class=\"col-md-12 \">\n            <div class=\"d-flex justify-content-between align-items-center breaking-news\" style=\"background: {{textbgcolor}}\">\n                <div class=\"d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2  px-2 news\"><span class=\"d-flex align-items-center\"><div mbr-text>Notices:</div></span></div>\n                <marquee class=\"news-scroll\" behavior=\"scroll\" direction=\"left\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\"> <a href=\"#\"></a><div mbr-text>Website Will Be Under Maintenance for awhile. Sorry for any inconveniences. Yours Sincerely, Kyle's Coastal Designs</div> </marquee>\n            </div>\n        </div>\n    </div>\n\n     </div>\n\n\n   \n</div></section>",
+          "_cid": "st2HbfjXFe",
+          "_anchor": "breaking-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "zen2cool-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "& when not (@transp)": {
+                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
+              },
+              "& when (@transp)": {
+                "background": "transparent"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".slider-text-two": {
+              "background": "fade(@textColor, @bgtxtzen * 1%) none repeat scroll 0 0",
+              "backdrop-filter": "blur(@bluttxtzen * 1px)",
+              "padding": "50px 50px",
+              "outline": "(@outline * 1px) solid @outlinecolor",
+              "outline-offset": "(@outlineoff * -1px)",
+              "box-shadow": "(@LeRi * 1px) (@UpDo * 1px) (@Flou * 1px) (@FlouInt * 1px) @ShadowColor",
+              "-moz-box-shadow": "(@LeRi * 1px) (@UpDo * 1px) (@Flou * 1px) (@FlouInt * 1px) @ShadowColor",
+              "-webkit-box-shadow": "(@LeRi * 1px) (@UpDo * 1px) (@Flou * 1px) (@FlouInt * 1px) @ShadowColor"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "letter-spacing": "(@letterspace * 1px)",
+              "font-weight": "100"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "border-radius": "(@radius * 1px)",
+                "-webkit-border-radius": "(@radius * 1px)",
+                "-moz-border-radius": "(@radius * 1px)"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".slider-text-two": {
+                "outline": "15px solid fade(@textColor, 80%)",
+                "border": "1px solid fade(contrast(@textColor), 20%)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "80% !important"
+                }
+              }
+            },
+            ".snow1": {
+              "background": "url(https://ya-webdesign.com/images250_/snow-background-png.png)",
+              "background-repeat": "repeat",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "animation": "neve1 10s infinite linear"
+            },
+            ".snow2": {
+              "background": "url(https://ya-webdesign.com/images250_/snow-background-png.png)",
+              "background-repeat": "repeat",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "animation": "neve2 10s infinite linear",
+              "background-size": "800px",
+              "filter": "blur(1.5px)"
+            },
+            ".snow3": {
+              "background": "url(https://ya-webdesign.com/images250_/snow-background-png.png)",
+              "background-repeat": "repeat",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "animation": "neve3 10s infinite linear",
+              "background-size": "1600px",
+              "filter": "blur(1px)"
+            },
+            "@keyframes neve1": {
+              "0%": {
+                "background-position": "0px 0px"
+              },
+              "100%": {
+                "background-position": "100px 650px"
+              }
+            },
+            "@keyframes neve2": {
+              "0%": {
+                "background-position": "0px -100px"
+              },
+              "100%": {
+                "background-position": "0px 650px"
+              }
+            },
+            "@keyframes neve3": {
+              "0%": {
+                "background-position": "0px 100px"
+              },
+              "100%": {
+                "background-position": "300px 650px"
+              }
+            }
+          },
+          "_name": "headerone",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" title=\"Width Text\" name=\"widthText\" min=\"1\" max=\"7\" step=\"1\" value=\"7\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Bg Text Color\" name=\"textColor\" value=\"#232323\">\n        <input type=\"range\" name=\"bgtxtzen\" title=\"Fade\" min=\"0\" max=\"100\" value=\"0\" step=\"1\">\n                <input type=\"range\" name=\"bluttxtzen\" title=\"Blur\" min=\"0\" max=\"20\" value=\"0\" step=\"1\">\n        <input type=\"range\" name=\"letterspace\" title=\"Letter Spacing\" min=\"0\" max=\"5\" value=\"1\" step=\"1\">\n        <input type=\"range\" name=\"outline\" title=\"Outline\" min=\"0\" max=\"30\" value=\"0\" step=\"1\">\n                <input type=\"range\" name=\"outlineoff\" title=\"Outline Offset\" min=\"0\" max=\"30\" value=\"0\" step=\"1\">\n        <input type=\"color\" name=\"outlinecolor\" title=\"Color\" value=\"#ff9966\">\n                <select title=\"Align\" name=\"alignTitle\" condition=\"showTitle || showSubtitle\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Shadow</header>\n                 <input type=\"range\" inline title=\"Left/Right\" name=\"LeRi\" min=\"-20\" max=\"20\" step=\"1\" value=\"12\">\n         <input type=\"range\" inline title=\"Up/Down\" name=\"UpDo\" min=\"-20\" max=\"20\" step=\"1\" value=\"11\">\n         <input type=\"range\" inline title=\"Blur\" name=\"Flou\" min=\"-1\" max=\"25\" step=\"1\" value=\"-1\">\n         <input type=\"range\" inline title=\"Blur Intensity\" name=\"FlouInt\" min=\"-16\" max=\"16\" step=\"1\" value=\"-16\">\n         <input type=\"color\" title=\"Shadow Color\" name=\"ShadowColor\" value=\"#cebfaf\">\n        <input type=\"checkbox\" title=\"Snow effect\" name=\"snoweffect\">\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Image 1\" name=\"mediatop\">\n        <input type=\"range\" inline title=\"Size\" name=\"mediaSizetop\" min=\"10\" max=\"100\" step=\"5\" value=\"10\" condition=\"mediatop\">\n         <input type=\"checkbox\" title=\"Image 2\" name=\"mediaup\">\n              <input type=\"range\" inline title=\"Size\" name=\"mediaSizeup\" min=\"10\" max=\"100\" step=\"5\" value=\"10\" condition=\"mediaup\">\n         <input type=\"checkbox\" title=\"Image 3\" name=\"mediadw\">\n        <input type=\"range\" inline title=\"Size\" name=\"mediaSizedw\" min=\"10\" max=\"100\" step=\"5\" value=\"10\" condition=\"mediadw\">\n        <input type=\"range\" inline title=\"Radius\" name=\"radius\" min=\"0\" max=\"1000\" step=\"1\" value=\"0\" condition=\"mediadw || mediaup || mediatop\">\n <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/lionaf.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffe161\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ff9966\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\t\t\n\t\t\n\t\t        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n  \n  \n  <div mbr-if=\"snoweffect\" class=\"snow1\"></div>\n  <div mbr-if=\"snoweffect\" class=\"snow2\"></div>\n  <div mbr-if=\"snoweffect\" class=\"snow3\"></div>\n  \n  \n    <div class=\"container text-center\" data-stellar-background-ratio=\".5\" mbr-syle=\"align-center\">\n          <div class=\"row slider-wrapper\" mbr-class=\"{'justify-content-center': alignTitle==2, 'justify-content-end': alignTitle==3}\">\n                <div mbr-class=\"{'col-lg-4 col-md-6': widthText == 1, 'col-lg-5 col-md-6': widthText == 2, 'col-md-6': widthText == 3, 'col-lg-8 col-md-6': widthText == 4, 'col-lg-9 col-md-12': widthText == 5, 'col-lg-10 col-md-12': widthText == 6, 'col-lg-12 col-md-12': widthText == 7}\">\n            <div class=\"slider-text  slider-text-two\">\n             <div class=\"mbr-figure pt-5\" mbr-if=\"mediatop\">\n                <img src=\"../_images/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizetop + '%'}\">\n            </div>\n              <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-bold align-center\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\"><br>Coming Soon<br></h2>\n      <div class=\"mbr-figure pt-5\" mbr-if=\"mediaup\">\n                <img src=\"../_images/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizeup + '%'}\">\n      </div>\n                                    <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n\t\t\t  <h4 class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>&nbsp;<br><br></h4><h4>\n            </h4> \n               <div class=\"mbr-figure pt-5\" mbr-if=\"mediadw\">\n                <img src=\"../_images/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizedw + '%'}\">\n            </div>\n           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n                        \n            </div>\n\n        </div>\n      </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "st2Le2czAA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "headerone-m"
+        },
+        {
+          "alias": "zen2cool-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "& when not (@transp)": {
+                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
+              },
+              "& when (@transp)": {
+                "background": "transparent"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".media-wrap": {
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              },
+              ".mbr-iconfont-logo": {
+                "font-size": "7.5rem",
+                "color": "#f36"
+              },
+              "img": {
+                "height": "100%"
+              }
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              }
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "& when (@gray)": {
+                "-webkit-filter": "grayscale(100%)",
+                "-moz-filter": "grayscale(100%)",
+                "-ms-filter": "grayscale(100%)",
+                "-o-filter": "grayscale(100%)",
+                "filter": "gray"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            },
+            ".copyright > p": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#232323"
+            },
+            "H5": {
+              "color": "#232323"
+            }
+          },
+          "_name": "footerone",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n                <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n                 <input type=\"range\" inline title=\"Image Size\" name=\"mediaSizeup\" min=\"10\" max=\"200\" step=\"5\" value=\"30\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected>0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked>\n         <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/lionaf.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff9966\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffe161\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\t\t\n\t\t\n\t\t        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        \n                 <input type=\"checkbox\" title=\"Gray Filter\" name=\"gray\">\n               <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"Address: 410 Ocean View Rd, Ettalong Beach NSW 2257\" value=\"Address: 410 Ocean View Rd, Ettalong Beach NSW 2257\">   \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"https://mobiri.se/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizeup + '%'}\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">Address: 410 Ocean View Rd, Ettalong Beach NSW 2257</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">\n                    Email: sunshinevibe2019@outlook.com<br>Phone: 0435 572 021<br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">&nbsp;</h5>\n                <p class=\"mbr-text\"><a class=\"text-primary\" href=\"https://mobiri.se/\">&nbsp;</a></p>\n            </div>\n        </div>\n            <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2019 - 2022. Sunshine Vibe Cafe - All Rights Reserved\n                    <br><br><a href=\"https://www.kylescoastaldesigns.tk/\" class=\"text-info\" target=\"_blank\">Powered By: Kyle's Coastal Designs</a></p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "st2GgztlBd",
+          "_anchor": "footerone-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
