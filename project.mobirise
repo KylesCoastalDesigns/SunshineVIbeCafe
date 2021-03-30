@@ -33,9 +33,15 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.3.0",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "favicon": "@PROJECT_PATH@/assets/images/sunshinevibelogo-127x128-1.jpg",
-    "mbrsiteDomain": "jf8sigfwkl",
+    "mbrsiteDomain": "drrpmoeuma",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -44,7 +50,13 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 23,
-    "versionPublish": "5.3.0"
+    "versionPublish": "5.3.0",
+    "dppsSwitcher": true,
+    "spellingSwitch": true,
+    "site_lang": "undefined",
+    "witsec-white-label": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -361,11 +373,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" title=\"Width Text\" name=\"widthText\" min=\"1\" max=\"7\" step=\"1\" value=\"7\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Bg Text Color\" name=\"textColor\" value=\"#232323\">\n        <input type=\"range\" name=\"bgtxtzen\" title=\"Fade\" min=\"0\" max=\"100\" value=\"0\" step=\"1\">\n                <input type=\"range\" name=\"bluttxtzen\" title=\"Blur\" min=\"0\" max=\"20\" value=\"0\" step=\"1\">\n        <input type=\"range\" name=\"letterspace\" title=\"Letter Spacing\" min=\"0\" max=\"5\" value=\"1\" step=\"1\">\n        <input type=\"range\" name=\"outline\" title=\"Outline\" min=\"0\" max=\"30\" value=\"0\" step=\"1\">\n                <input type=\"range\" name=\"outlineoff\" title=\"Outline Offset\" min=\"0\" max=\"30\" value=\"0\" step=\"1\">\n        <input type=\"color\" name=\"outlinecolor\" title=\"Color\" value=\"#ff9966\">\n                <select title=\"Align\" name=\"alignTitle\" condition=\"showTitle || showSubtitle\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Shadow</header>\n                 <input type=\"range\" inline title=\"Left/Right\" name=\"LeRi\" min=\"-20\" max=\"20\" step=\"1\" value=\"12\">\n         <input type=\"range\" inline title=\"Up/Down\" name=\"UpDo\" min=\"-20\" max=\"20\" step=\"1\" value=\"11\">\n         <input type=\"range\" inline title=\"Blur\" name=\"Flou\" min=\"-1\" max=\"25\" step=\"1\" value=\"-1\">\n         <input type=\"range\" inline title=\"Blur Intensity\" name=\"FlouInt\" min=\"-16\" max=\"16\" step=\"1\" value=\"-16\">\n         <input type=\"color\" title=\"Shadow Color\" name=\"ShadowColor\" value=\"#cebfaf\">\n        <input type=\"checkbox\" title=\"Snow effect\" name=\"snoweffect\">\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Image 1\" name=\"mediatop\">\n        <input type=\"range\" inline title=\"Size\" name=\"mediaSizetop\" min=\"10\" max=\"100\" step=\"5\" value=\"10\" condition=\"mediatop\">\n         <input type=\"checkbox\" title=\"Image 2\" name=\"mediaup\">\n              <input type=\"range\" inline title=\"Size\" name=\"mediaSizeup\" min=\"10\" max=\"100\" step=\"5\" value=\"10\" condition=\"mediaup\">\n         <input type=\"checkbox\" title=\"Image 3\" name=\"mediadw\">\n        <input type=\"range\" inline title=\"Size\" name=\"mediaSizedw\" min=\"10\" max=\"100\" step=\"5\" value=\"10\" condition=\"mediadw\">\n        <input type=\"range\" inline title=\"Radius\" name=\"radius\" min=\"0\" max=\"1000\" step=\"1\" value=\"0\" condition=\"mediadw || mediaup || mediatop\">\n <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/lionaf.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffe161\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ff9966\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\t\t\n\t\t\n\t\t        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n  \n  \n  <div mbr-if=\"snoweffect\" class=\"snow1\"></div>\n  <div mbr-if=\"snoweffect\" class=\"snow2\"></div>\n  <div mbr-if=\"snoweffect\" class=\"snow3\"></div>\n  \n  \n    <div class=\"container text-center\" data-stellar-background-ratio=\".5\" mbr-syle=\"align-center\">\n          <div class=\"row slider-wrapper\" mbr-class=\"{'justify-content-center': alignTitle==2, 'justify-content-end': alignTitle==3}\">\n                <div mbr-class=\"{'col-lg-4 col-md-6': widthText == 1, 'col-lg-5 col-md-6': widthText == 2, 'col-md-6': widthText == 3, 'col-lg-8 col-md-6': widthText == 4, 'col-lg-9 col-md-12': widthText == 5, 'col-lg-10 col-md-12': widthText == 6, 'col-lg-12 col-md-12': widthText == 7}\">\n            <div class=\"slider-text  slider-text-two\">\n             <div class=\"mbr-figure pt-5\" mbr-if=\"mediatop\">\n                <img src=\"../_images/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizetop + '%'}\">\n            </div>\n              <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-bold align-center\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\"><br>Coming Soon<br></h2>\n      <div class=\"mbr-figure pt-5\" mbr-if=\"mediaup\">\n                <img src=\"../_images/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizeup + '%'}\">\n      </div>\n                                    <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n\t\t\t  <h4 class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>&nbsp;<br><br></h4><h4>\n            </h4> \n               <div class=\"mbr-figure pt-5\" mbr-if=\"mediadw\">\n                <img src=\"../_images/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizedw + '%'}\">\n            </div>\n           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n                        \n            </div>\n\n        </div>\n      </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "st2Le2czAA",
+          "_anchor": "headerone-m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "headerone-m"
+          "_params": {}
         },
         {
           "alias": "zen2cool-blocks/components",
